@@ -2,24 +2,16 @@
   "name": "boilerplate",
   "version": "1.0.0",
   "description": "boilerplate server and builder",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node bin/www/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Olivia Osby",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-stage-1": "^6.5.0",
-    "babelify": "^7.3.0",
-    "browser-sync": "^2.12.8",
-    "browserify": "^13.0.1",
-    "gulp": "^3.9.1",
-    "gulp-sourcemaps": "^1.6.0",
-    "vinyl": "^1.1.0",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0",
-    "watchify": "^3.7.0"
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4"
   }
 }
